@@ -11,7 +11,6 @@
     "ssh_private_key_file": "/var/lib/jenkins/.ssh/charlie-poullet-eng53-ire-key.pem",
     "associate_public_ip_address": "true",
     "ssh_agent_auth": true,
-	"ssh_username": "ubuntu",
 
     "access_key": "{{user `aws_access_key`}}",
     "secret_key": "{{user `aws_secret_key`}}",
