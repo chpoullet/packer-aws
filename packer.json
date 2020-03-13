@@ -26,7 +26,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "charlie-poullet-eng53-nodejs-{{env `GIT_TAG_NAME`}}"
+    "ami_name": "charlie-poullet-eng53-nodejs-{{`version`}}"
   }],
   "provisioners": [
     {
